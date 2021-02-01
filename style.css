@@ -7,7 +7,7 @@ body{
 h1{
     font-size: 50px;
 }
-.text-highlight{
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -18,13 +18,15 @@ h1{
 }
 .half-width img{
     width: 100%;
+
 }
+
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 section {
-    height: 500px;
+    height: 550px;
 }
 .link-button{
     background-color: orange;
@@ -43,7 +45,30 @@ section {
     background-position:right;
     width: 100%;
 }
-.half-width p{
-    margin-left: ;
-    padding-left: 10px;
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+.experience-box{
+    box-shadow: 10px 10px 30px gray;
+   height: 50%;
+   background-color: white;
+}
+#full-stack{
+    border-left: 6px solid;
+    border-image: linear-gradient( 180deg,   lightsalmon,tomato);
+    border-image-slice: 1;
+
+
+}
+#baby-web{
+    border-left: 6px solid;
+    border-image: linear-gradient( 180deg,   blue, cyan);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
 }
